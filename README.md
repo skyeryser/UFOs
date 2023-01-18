@@ -5,9 +5,15 @@ This project aims to develop a web app that allows users to filter on various UF
 ## Results
 The UFO Sightings is a web app funded by W. Avy, a UFO enthusiast, and amateur Ufologist. It contains information regarding various UFO sightings in January 2010.
 
+![site_overview](https://github.com/skyeryser/UFOs/blob/main/web/static/images/site_overview.png)
+
 The UFO Sightings app allows users to search for UFO sightings based on any combination of the following filters:
+
+![filters](https://github.com/skyeryser/UFOs/blob/main/web/static/images/filters.png)
     
 Once the user has input their chosen filters, they can press enter on their keyboard, and the data table to the right of the webpage will update based on the specified filters. In the example below, the user has filtered all the sightings in the city of Seattle. 
+
+![seattle_search](https://github.com/skyeryser/UFOs/blob/main/web/static/images/seattle_search.png)
 
 Once the table is updated according to the user's filters, the webpage needs to be refreshed before another search can be performed.
 
