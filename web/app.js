@@ -30,18 +30,19 @@ var filters = {};
 function updateFilters() {
 
     // 4a. Save the element that was changed as a variable.
-    let date = d3.select("#datetime").property("value");
-    let city = d3.select("#city").property("value");
-    let state = d3.select("#state").property("value");
-    let country = d3.select("#country").property("value");
-    let shape = d3.select("#shape").property("value");
 
     // 4b. Save the value that was changed as a variable.
     //let value = d3.select.property("value");
 
     // 4c. Save the id of the filter that was changed as a variable.
     //let id = d3.select.property("id");
-  
+
+    let date = d3.select("#datetime").property("value");
+    let city = d3.select("#city").property("value");
+    let state = d3.select("#state").property("value");
+    let country = d3.select("#country").property("value");
+    let shape = d3.select("#shape").property("value");
+
     // 5. If a filter value was entered then add that filterId and value
     // to the filters list. Otherwise, clear that filter from the filters object.
     if (date != "") {
@@ -93,6 +94,18 @@ function updateFilters() {
   
   // 2. Attach an event to listen for changes to each filter
   d3.select("#datetime").on("keypress", function(){
+    updateFilters()
+  })
+  d3.select("#city").on("keypress", function(){
+    updateFilters()
+  })
+  d3.select("#state").on("keypress", function(){
+    updateFilters()
+  })
+  d3.select("#country").on("keypress", function(){
+    updateFilters()
+  })
+  d3.select("#shape").on("keypress", function(){
     updateFilters()
   })
   
