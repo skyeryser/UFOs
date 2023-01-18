@@ -1,8 +1,8 @@
 # UFOs
-## Overview of the analysis:
+## Overview of the analysis
 This project aims to develop a web app that allows users to filter on various UFO sightings. In the app, UFO enthusiasts can filter on any of five filters, including the date, state, city, country, and shape of the UFO sighting.
 
-## Results:
+## Results
 The UFO Sightings is a web app funded by W. Avy, a UFO enthusiast, and amateur Ufologist. It contains information regarding various UFO sightings in January 2010.
 
 The UFO Sightings app allows users to search for UFO sightings based on any combination of the following filters:
